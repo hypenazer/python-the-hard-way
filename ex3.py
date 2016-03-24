@@ -3,7 +3,7 @@ print "I will now count my chickens:"
 # print hens, then 30 (25 + 5)
 print "Hens", 25 + 30 / 6.0
 # print Roosters, then appears order of operations is multiplication, mod, subtraction
-print "Roosters", 100.0 - 25 * 3 % 4
+print "Roosters", 100.0	 - 25 * 3 % 4
 
 print "Now I will count the eggs:"
 
