@@ -18,10 +18,12 @@ script, from_file, to_file = argv
 #out_file = open(to_file, 'w')
 #out_file.write(indata)
 
-#print "Alright, all done."
-
-#out_file.close()
-#in_file.close
-
 # Perform the copy step with one line of code.
 open(to_file, 'w').write(open(from_file).read())
+
+#print "Alright, all done."
+
+#out_file.close()  # Parenthesis are req'd on write events
+				   # https://pythonconquerstheuniverse.wordpress.com/2008/06/04/gotcha-%E2%80%94-forgetting-parentheses/
+#in_file.close
+
