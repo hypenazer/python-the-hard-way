@@ -42,9 +42,14 @@ division (1, 4)
 
 def addition_many(*args):
 	x = 0
-	st = ''
+	st = '0'
 	for i in args:
 		x += i
-	print x
+		st = st + ' + ' + str(i)
+	print st + ' = ' + str(x)
 	
-addition_many(1, 3)
+addition_many(1, 3, 12, 14, 0, -1)
+
+
+
+
