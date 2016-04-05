@@ -17,17 +17,19 @@ if door == "1":
 		print "Well, doing %s is probably better.  Bear runs away." % bear
 
 elif door == "2":
-	print "You stare into the endless abyss at Cthulhu's retina."
-	print "1. Blueberries."
-	print "2. Yellow jacket clothespins."
-	print "3. Understanding revolvers yelling melodies."
+	print "You are at the top of a dark staircase.  A lightswitch is to your right."
+	print "1. Decend the stairs"
+	print "2. Toggle lightswitch"
+	print "3. Turn around"
 	
-	insanity = raw_input("> ")
+	stairs = raw_input("> ")
 	
-	if insanity == "1" or insanity == "2":
-		print "Your body survives powered by a mind of jello.  Good job!"
+	if stairs == "1":
+		print "The first stair breaks under your weight.  You fall into a pool of shaving cream."
+	elif stairs == "2":
+		print "The stairway illumates.  At the base is a wolfe mauling a parrot."
 	else:
-		print "The insanity rots your eyes into a pool of muck.  Good job!"
+		print "You become dizzy, fall down the stairs and die."
 
 else:
 	print "You stumble around and fall on a knife and die.  Good job!"
