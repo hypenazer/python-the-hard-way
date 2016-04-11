@@ -31,3 +31,9 @@ The animal at position 5 is the 6th animal and is a platypus.
 8. The animal at 4.
 The animal at 4 is the 5th animal and is a whale.
 The 5th animal is at position 4 and is a whale.
+
+
+Study drills:
+1. Years are ordered/ordinal. There was no year 0. Therefore 2010 really is 2010.
+2. 
+3. 
